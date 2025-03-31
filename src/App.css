@@ -1,0 +1,26 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+
+
+body{
+    height: 100vh;
+    background-color:hsl(218, 23%, 16%); ;
+}
+
+.container{
+    padding: 40px;
+    width: 450px;
+    height: auto;
+    background-color: hsl(217, 19%, 24%);
+    border-radius: 15px;
+}
+
+@media screen and (max-width:875px) {
+    .container{
+        width: 300px;
+    }
+}

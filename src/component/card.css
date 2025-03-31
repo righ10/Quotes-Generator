@@ -1,0 +1,52 @@
+
+.card{
+    text-align: center;
+    font-family: "Manrope";
+}
+.card h4{
+    color: hsl(150, 100%, 66%);
+    font-size:15px ;
+    text-transform:uppercase;
+    letter-spacing: 5px;
+    font-weight: 600;
+    padding-bottom: 20px;
+}
+
+.card p{
+    color: hsl(193, 38%, 86%);
+    font-size: 28px;
+    font-weight: 800;
+    padding-bottom: 20px;
+}
+.divider{
+    width: 370px;
+    padding-bottom: 20px;
+}
+.diceEl{
+    height: 0;
+    width: 0;
+}
+
+
+button{
+    position: relative;
+    left:150px;
+    padding: 25px;
+    background-color:hsl(150, 100%, 66%) ;
+    border-radius: 50%;
+    border: none;
+    
+}
+button:hover{
+    box-shadow: 0 0 30px 1px hsl(150, 100%, 66%);
+}
+
+
+@media screen and (max-width:875px){
+    .divider{
+        width: 220px;
+    }
+    button{
+        left: 70px;
+    }
+}
